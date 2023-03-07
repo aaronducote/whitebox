@@ -23,12 +23,4 @@ int main(int argc, char *argv[])
         printf("%d", X);
     }
 
-
-    if (argc < 2)           // makes sure that user inputs file name as well as executable
-    {
-        printf("You must provide the name of the file to process\n");
-        printf("Example usage: ./movies movies_sample_1.csv\n");
-        return EXIT_FAILURE;
-    }
-    
 }
